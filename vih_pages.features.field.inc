@@ -83,14 +83,14 @@ function vih_pages_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-page-field_image'
-  $fields['node-page-field_image'] = array(
+  // Exported field: 'node-page-field_picture'
+  $fields['node-page-field_picture'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_image',
+      'field_name' => 'field_picture',
       'foreign keys' => array(),
       'indexes' => array(
         'fid' => array(
@@ -99,7 +99,7 @@ function vih_pages_field_default_fields() {
       ),
       'module' => 'image',
       'settings' => array(
-        'default_image' => 0,
+        'default_image' => '178',
         'uri_scheme' => 'public',
       ),
       'translatable' => '1',
@@ -111,7 +111,7 @@ function vih_pages_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'hidden',
+          'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
           'weight' => '1',
@@ -124,13 +124,16 @@ function vih_pages_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_image',
+      'field_name' => 'field_picture',
       'label' => 'Billede',
       'required' => 0,
       'settings' => array(
         'alt_field' => 0,
         'file_directory' => '',
-        'file_extensions' => 'png gif jpg jpeg',
+        'file_extensions' => 'png jpg jpeg',
+        'imagecrop' => array(
+          'content_width' => 0,
+        ),
         'max_filesize' => '',
         'max_resolution' => '',
         'min_resolution' => '',
@@ -142,7 +145,8 @@ function vih_pages_field_default_fields() {
         'module' => 'media',
         'settings' => array(
           'allowed_schemes' => array(
-            'private' => 'private',
+            'oembed' => 0,
+            'private' => 0,
             'public' => 'public',
             'youtube' => 0,
           ),
@@ -152,11 +156,16 @@ function vih_pages_field_default_fields() {
             'image' => 'image',
             'video' => 0,
           ),
-          'browser_plugins' => array(),
+          'browser_plugins' => array(
+            'library' => 'library',
+            'media_default--media_browser_1' => 'media_default--media_browser_1',
+            'media_internet' => 'media_internet',
+            'upload' => 'upload',
+          ),
           'progress_indicator' => 'throbber',
         ),
         'type' => 'media_generic',
-        'weight' => '2',
+        'weight' => '3',
       ),
     ),
   );
