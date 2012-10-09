@@ -1,0 +1,131 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  vih_pages.features.field.inc: n/a
+#  vih_pages.features.inc: n/a
+#  vih_pages.views_default.inc: n/a
+#  vih_pages.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-10-09 13:40+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: vih_pages.features.field.inc:178
+msgid "Billede"
+msgstr ""
+
+#: vih_pages.features.field.inc:179
+msgid "Body"
+msgstr ""
+
+#: vih_pages.features.inc:30
+msgid "Basic page"
+msgstr ""
+
+#: vih_pages.features.inc:32
+msgid "Use <em>basic pages</em> for your static content, such as an 'About us' page."
+msgstr ""
+
+#: vih_pages.features.inc:34
+msgid "Title"
+msgstr ""
+
+#: vih_pages.views_default.inc:179
+msgid "Master"
+msgstr ""
+
+#: vih_pages.views_default.inc:180
+msgid "Seneste sider"
+msgstr ""
+
+#: vih_pages.views_default.inc:181
+msgid "mere"
+msgstr ""
+
+#: vih_pages.views_default.inc:182
+msgid "Udfør"
+msgstr ""
+
+#: vih_pages.views_default.inc:183
+msgid "Gendan"
+msgstr ""
+
+#: vih_pages.views_default.inc:184
+msgid "Sortér efter"
+msgstr ""
+
+#: vih_pages.views_default.inc:185
+msgid "Stigende"
+msgstr ""
+
+#: vih_pages.views_default.inc:186
+msgid "Faldende"
+msgstr ""
+
+#: vih_pages.views_default.inc:187
+msgid "Antal elementer"
+msgstr ""
+
+#: vih_pages.views_default.inc:188
+msgid "- Alle -"
+msgstr ""
+
+#: vih_pages.views_default.inc:189
+msgid "Forskydning"
+msgstr ""
+
+#: vih_pages.views_default.inc:190
+msgid "« første"
+msgstr ""
+
+#: vih_pages.views_default.inc:191
+msgid "‹ forrige"
+msgstr ""
+
+#: vih_pages.views_default.inc:192
+msgid "næste ›"
+msgstr ""
+
+#: vih_pages.views_default.inc:193
+msgid "sidste »"
+msgstr ""
+
+#: vih_pages.views_default.inc:194
+msgid "Content pane"
+msgstr ""
+
+#: vih_pages.views_default.inc:195
+msgid "Titel"
+msgstr ""
+
+#: vih_pages.views_default.inc:196
+msgid "View panes"
+msgstr ""
+
+#: vih_pages.views_default.inc:197
+msgid "Side"
+msgstr ""
+
+#: vih_pages.info:0
+msgid "VIH Pages"
+msgstr ""
+
+#: vih_pages.info:0
+msgid "Used for basic pages"
+msgstr ""
+
+#: vih_pages.info:0
+msgid "VIH"
+msgstr ""
+
