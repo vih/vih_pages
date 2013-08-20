@@ -98,7 +98,6 @@ function vih_pages_views_default_views() {
 
   /* Display: Content pane */
   $handler = $view->new_display('panel_pane', 'Content pane', 'panel_pane_1');
-  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['use_more'] = FALSE;
   $handler->display->display_options['use_more'] = TRUE;
   $handler->display->display_options['defaults']['use_more_always'] = FALSE;
@@ -143,7 +142,6 @@ function vih_pages_views_default_views() {
 
   /* Display: Side */
   $handler = $view->new_display('page', 'Side', 'page_1');
-  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Felt: Felt: Billede */
   $handler->display->display_options['fields']['field_picture']['id'] = 'field_picture';
