@@ -139,6 +139,8 @@ function vih_pages_views_default_views() {
   $handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
   $handler->display->display_options['fields']['delete_node']['label'] = '';
   $handler->display->display_options['fields']['delete_node']['element_label_colon'] = FALSE;
+  $handler->display->display_options['pane_category']['name'] = 'VIH Admin';
+  $handler->display->display_options['pane_category']['weight'] = '0';
 
   /* Display: Side */
   $handler = $view->new_display('page', 'Side', 'page_1');
@@ -197,7 +199,7 @@ function vih_pages_views_default_views() {
     t('Content pane'),
     t('Titel'),
     t('Opdateringsdato'),
-    t('View panes'),
+    t('VIH Admin'),
     t('Side'),
   );
   $export['pages'] = $view;

@@ -17,7 +17,6 @@ features[features_api][] = api:2
 features[field_instance][] = node-page-body
 features[field_instance][] = node-page-field_picture
 features[node][] = page
-features[variable][] = comment_page
 features[variable][] = field_bundle_settings_node__page
 features[variable][] = language_content_type_page
 features[variable][] = menu_options_page
